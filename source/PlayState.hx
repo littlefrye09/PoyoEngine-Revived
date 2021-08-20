@@ -2850,7 +2850,7 @@ class PlayState extends MusicBeatState
 	function noteMiss(direction:Int = 1):Void
 	{
 		if (!boyfriend.stunned)
-			health -= 0.00
+			health -= 0.00;
 				gf.playAnim('sad');
 
 			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
